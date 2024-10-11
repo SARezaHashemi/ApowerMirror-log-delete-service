@@ -33,6 +33,7 @@
             // 
             // AMLHandlerServiceProccessInstaller
             // 
+            this.AMLHandlerServiceProccessInstaller.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
             this.AMLHandlerServiceProccessInstaller.Password = null;
             this.AMLHandlerServiceProccessInstaller.Username = null;
             // 
