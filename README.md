@@ -15,6 +15,3 @@ This is a standard Windows service that runs in the background. Every 5 minutes,
 
 # Logs
 Logs will be created in the directory where the executable file is located.
-
-# Bugs =/
-Unfortunately, I didn't try to handle any bugs yet. On my own PC, I couldn't install the service using InstallUtil.exe.
