@@ -24,11 +24,11 @@ namespace ApowerMirrorLogHandler
                 if(size > 500)
                 {
                     Directory.Delete(path);
-                    Log($"Log folder checked; All logs file deleted; the total size was {size}");
+                    Log($"Log folder checked; All logs file deleted; the total size was {size} MB");
                 }
                 else
                 {
-                    Log($"Log folder checked; No need to delete; the total size is {size}");
+                    Log($"Log folder checked; No need to delete; the total size is {size} MB");
                 }
             }
             else
