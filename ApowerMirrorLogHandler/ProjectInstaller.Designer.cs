@@ -42,6 +42,7 @@
             this.AMLHandlerServiceInstaller.ServiceName = "ApowerMirrorLogHandlerService";
             this.AMLHandlerServiceInstaller.DisplayName = "AMLLogDeletor";
             this.AMLHandlerServiceInstaller.Description = "This service deletes ApowerMirror logs when its size reaches 500MB";
+            this.AMLHandlerServiceInstaller.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
             // ProjectInstaller
             // 
