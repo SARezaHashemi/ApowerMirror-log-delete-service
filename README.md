@@ -15,3 +15,13 @@ This is a standard Windows service that runs in the background. Every 5 minutes,
 
 # Logs
 Logs will be created in the directory where the executable file is located.
+
+#Bugs
+You should start service with your own profile and if you don't have a password in your own profile, the service won't work correctly.
+To make run service in your profile:
+1. Press `Win + R` to open the Run dialog.
+2. Type `services.msc` and press Enter.
+3. Right-click on the service
+4. Go to LogOn tab
+5. Select the `This account` option and enter your username and password.
+6. Restart the service.
